@@ -109,4 +109,4 @@ if os.path.exists(model_path):
             st.write(f"Orang tersebut diprediksi **{outcome[rf_model_prediction[0]]}**")
 
 else:
-    print("File 'rf_diabetes_model.pkl' tidak ditemukan di direktori")
+    print("File 'GBT_heartDisease_model.pkl' tidak ditemukan di direktori")
