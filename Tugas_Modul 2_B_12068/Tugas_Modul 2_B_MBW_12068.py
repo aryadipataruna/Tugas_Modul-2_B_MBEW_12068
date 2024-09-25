@@ -2,7 +2,7 @@ import streamlit as st
 import pickle 
 import os
 
-model_path = 'GBT_heartDisease_model.pkl'
+model_path = 'Tugas_Modul 2_B_12068/GBT_heartDisease_model.pkl'
 
 # Periksa apakah file ada di direktori yang ditentukan
 if os.path.exists(model_path):
